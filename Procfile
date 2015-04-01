@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* Application
+web: java $JAVA_OPTS build/libs/gs-music-broadcaster-0.1.0.jar
