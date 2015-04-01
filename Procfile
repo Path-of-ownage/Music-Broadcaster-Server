@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar build/libs/gs-music-broadcaster-0.1.0.jar com.poo.musicbroadcaster.Application
+web: java $JAVA_OPTS -jar target/dependency/jetty-runner.jar --port $PORT target/*.war
